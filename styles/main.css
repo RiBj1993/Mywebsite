@@ -3480,7 +3480,7 @@ body {
 }
 
 .dropdown-menu.dropdown-primary:before {
-  color: #33813a;
+  color:  #b76e79;
 }
 
 .dropdown-menu.dropdown-primary .dropdown-header:not([href]):not([tabindex]) {
@@ -3548,11 +3548,11 @@ body {
 }
 
 .dropdown-menu.dropdown-success {
-  background-color: #16c00e;
+  background-color: #b76e79;
 }
 
 .dropdown-menu.dropdown-success:before {
-  color: #16c00e;
+  color: #b76e79;
 }
 
 .dropdown-menu.dropdown-success .dropdown-header:not([href]):not([tabindex]) {

@@ -1511,7 +1511,7 @@ fieldset[disabled]
 }
 
 .btn-primary {
-  background-color: #378C3F;
+  background-color: #e63e62;
   color: #FFFFFF;
 }
 
@@ -1519,7 +1519,7 @@ fieldset[disabled]
 .show > .btn-primary.dropdown-toggle,
 .show > .btn-primary.dropdown-toggle:focus,
 .show > .btn-primary.dropdown-toggle:hover {
-  background-color: #40a249;
+  background-color:  #b76e79;
   color: #FFFFFF;
   -webkit-box-shadow: none;
           box-shadow: none;
@@ -3398,7 +3398,7 @@ body {
 }
 
 .bg-primary {
-  background-color: #378C3F !important;
+  background-color: #f4c2c2  !important;
 }
 
 .bg-info {
@@ -4782,7 +4782,7 @@ Created using IcoMoon - icomoon.io
   margin-top: -60px;
   padding: 0 15px;
   width: 100%;
-  color: rgba(255, 255, 255, 0.5);
+  /*color: rgba(255, 255, 255, 0.5);*/
 }
 
 .landing-page .header {
@@ -5192,20 +5192,16 @@ Created using IcoMoon - icomoon.io
 }
 
 .page-header:before {
-  background-color: rgba(0, 0, 0, 0.5);
+  /*background-color: rgba(0, 0, 0, 0.5);*/
 }
-
+/*
 .page-header[filter-color="orange"] {
   background: rgba(44, 44, 44, 0.2);
-  /* For browsers that do not support gradients */
-  /* For Safari 5.1 to 6.0 */
-  /* For Opera 11.1 to 12.0 */
-  /* For Firefox 3.6 to 15 */
+ 
   background: -webkit-gradient(linear, left bottom, left top, from(rgba(44, 44, 44, 0.2)), to(rgba(224, 23, 3, 0.6)));
   background: linear-gradient(0deg, rgba(44, 44, 44, 0.2), rgba(224, 23, 3, 0.6));
-  /* Standard syntax */
 }
-
+*/
 .page-header .container {
   z-index: 2;
 }
@@ -7038,18 +7034,14 @@ Created using IcoMoon - icomoon.io
 }
 
 /* Body */
-/* Profile Page Background Style */
+/* Profile Page Background Style
 .page-header {
   background: rgba(44, 44, 44, 0.2);
-  /* For browsers that do not support gradients */
-  /* For Safari 5.1 to 6.0 */
-  /* For Opera 11.1 to 12.0 */
-  /* For Firefox 3.6 to 15 */
+
   background: -webkit-gradient(linear, left bottom, left top, from(rgba(44, 44, 44, 0.2)), to(rgba(55, 140, 63, 0.6)));
   background: linear-gradient(0deg, rgba(44, 44, 44, 0.2), rgba(55, 140, 63, 0.6));
-  /* Standard syntax */
 }
-
+ */
 .page-header .btn {
   width: 140px;
 }

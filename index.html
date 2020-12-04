@@ -635,46 +635,46 @@
          to   { -webkit-transform: rotateY(-360deg); }
          }
          /* ---------- cube styles ------------- */
-         .cube > .one {
+         .cubes > .one {
          opacity: 0.5;
          -webkit-transform: scale3d(1.2, 1.2, 1.2) rotateX(90deg) translateZ(100px);
          }
-         .cube > .two {
+         .cubes > .two {
          opacity: 0.5;
          -webkit-transform: scale3d(1.2, 1.2, 1.2) translateZ(100px);
          }
-         .cube > .three {
+         .cubes > .three {
          opacity: 0.5;
          -webkit-transform: scale3d(1.2, 1.2, 1.2) rotateY(90deg) translateZ(100px);
          }
-         .cube > .four {
+         .cubes > .four {
          opacity: 0.5;
          -webkit-transform: scale3d(1.2, 1.2, 1.2) rotateY(180deg) translateZ(100px);
          }
-         .cube > .five {
+         .cubes > .five {
          opacity: 0.5;
          -webkit-transform: scale3d(1.2, 1.2, 1.2) rotateY(-90deg) translateZ(100px);
          }
-         .cube > .six {
+         .cubes > .six {
          opacity: 0.5;
          -webkit-transform: scale3d(1.2, 1.2, 1.2) rotateX(-90deg) translateZ(100px) rotate(180deg);
          }
-         .cube > .seven {
+         .cubes > .seven {
          -webkit-transform: scale3d(0.8, 0.8, 0.8) rotateX(90deg) translateZ(100px) rotate(180deg);
          }
-         .cube > .eight {
+         .cubes > .eight {
          -webkit-transform: scale3d(0.8, 0.8, 0.8) translateZ(100px);
          }
-         .cube > .nine {
+         .cubes > .nine {
          -webkit-transform: scale3d(0.8, 0.8, 0.8) rotateY(90deg) translateZ(100px);
          }
-         .cube > .ten {
+         .cubes > .ten {
          -webkit-transform: scale3d(0.8, 0.8, 0.8) rotateY(180deg) translateZ(100px);
          }
-         .cube > .eleven {
+         .cubes > .eleven {
          -webkit-transform: scale3d(0.8, 0.8, 0.8) rotateY(-90deg) translateZ(100px);
          }
-         .cube > .twelve {
+         .cubes > .twelve {
          -webkit-transform: scale3d(0.8, 0.8, 0.8) rotateX(-90deg) translateZ(100px);
          }
          /* ---------- ring styles ------------- */
@@ -779,9 +779,9 @@
            var shape = document.getElementById('shape');
            if (hasClassName(shape, 'ring')) {
              removeClassName(shape, 'ring');
-             addClassName(shape, 'cube');
+             addClassName(shape, 'cubes');
            } else {
-             removeClassName(shape, 'cube');
+             removeClassName(shape, 'cubes');
              addClassName(shape, 'ring');
            }
            
@@ -1132,7 +1132,7 @@
                         </div>
                         <div id="container">
                            <div id="stage" style="">
-                              <div id="shape" class="  cube">
+                              <div id="shape" class="  cubes">
                                  <div class="plane one icondiv">              <img src="p/13.png" /></div>
                                  <div class="plane two icondiv">  <img src="p/1.png" /></div>
                                  <div class="plane three icondiv">  <img src="p/2.png" /></div>
